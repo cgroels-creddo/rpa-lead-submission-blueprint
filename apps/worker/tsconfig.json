@@ -1,1 +1,26 @@
-Worker TypeScript config
+diff --git a/apps/worker/tsconfig.json b/apps/worker/tsconfig.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..99885ffd0fe365552a8b6a786eba811a413658a5
+--- /dev/null
++++ b/apps/worker/tsconfig.json
+@@ -0,0 +1,20 @@
++{
++  "compilerOptions": {
++    "composite": true,
++    "declaration": true,
++    "outDir": "dist",
++    "rootDir": "src",
++    "module": "NodeNext",
++    "target": "ES2022",
++    "moduleResolution": "NodeNext",
++    "strict": true,
++    "esModuleInterop": true,
++    "skipLibCheck": true
++  },
++  "include": ["src"],
++  "references": [
++    { "path": "../../libs/domain" },
++    { "path": "../../libs/mappers" },
++    { "path": "../../libs/queue" }
++  ]
++}
