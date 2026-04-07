@@ -1,1 +1,20 @@
-API TypeScript config
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "module": "NodeNext",
+    "target": "ES2022",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "references": [
+    { "path": "../../libs/domain" },
+    { "path": "../../libs/validation" },
+    { "path": "../../libs/queue" }
+  ]
+}
