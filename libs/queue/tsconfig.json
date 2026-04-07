@@ -1,1 +1,15 @@
-Queue TypeScript config
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "module": "NodeNext",
+    "target": "ES2022",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src"],
+  "references": [{ "path": "../domain" }]
+}
