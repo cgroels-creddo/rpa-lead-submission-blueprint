@@ -1,1 +1,17 @@
-Portal configuration
+diff --git a/config/portal.config.json b/config/portal.config.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..c00862d46aff265ed84394cc03855e945ff7ea37
+--- /dev/null
++++ b/config/portal.config.json
+@@ -0,0 +1,11 @@
++{
++  "portalBaseUrlEnv": "PARTNER_PORTAL_URL",
++  "loginPath": "/login",
++  "newLeadPath": "/new-lead",
++  "selectorsVersion": "2026-04-07",
++  "selectors": {
++    "preferredStrategy": ["role", "label"],
++    "fallbackStrategy": ["name", "id"],
++    "notes": "Update selectors after each partner portal release; keep this file source of truth."
++  }
++}
