@@ -1,1 +1,21 @@
-Mappers TypeScript config
+diff --git a/libs/mappers/tsconfig.json b/libs/mappers/tsconfig.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..8008f49b91d72433ed31f9fffeebe6ab472f241e
+--- /dev/null
++++ b/libs/mappers/tsconfig.json
+@@ -0,0 +1,15 @@
++{
++  "compilerOptions": {
++    "composite": true,
++    "declaration": true,
++    "outDir": "dist",
++    "rootDir": "src",
++    "module": "NodeNext",
++    "target": "ES2022",
++    "moduleResolution": "NodeNext",
++    "strict": true,
++    "esModuleInterop": true
++  },
++  "include": ["src"],
++  "references": [{ "path": "../domain" }]
++}
