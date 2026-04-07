@@ -1,1 +1,11 @@
-Root TypeScript config
+{
+  "files": [],
+  "references": [
+    { "path": "./libs/domain" },
+    { "path": "./libs/validation" },
+    { "path": "./libs/mappers" },
+    { "path": "./libs/queue" },
+    { "path": "./apps/api" },
+    { "path": "./apps/worker" }
+  ]
+}
