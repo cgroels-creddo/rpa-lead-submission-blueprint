@@ -138,8 +138,8 @@ Decision points:
 
 ## 📊 Performance & Scalability
 
-- Define expected throughput: `[X items/hour]`.
-- Define max acceptable latency: `[Y minutes per transaction]`.
+- Define expected throughput: `5-10 per day maximum`.
+- Define max acceptable latency: `2-3 minutes per transaction`.
 - Scale horizontally by increasing worker replicas and queue concurrency.
 - Prevent overload with rate limits, backpressure, and queue partitioning.
 - Track bottlenecks: portal response times, selector stability, and login/session churn.
@@ -149,9 +149,9 @@ Decision points:
 ## 🛠️ Maintenance & Support
 
 - Assign ownership:
-  - Product owner: `[Name/Team]`
-  - Technical owner: `[Name/Team]`
-  - Operational support: `[L1/L2/L3 Model]`
+  - Product owner: `Marek Pietrzak`
+  - Technical owner: `CodePole`
+  - Operational support: `Cedric Roels`
 - Define runbooks for restart, replay, and manual fallback.
 - Schedule periodic selector review and credential rotation.
 - Maintain known issues and support SLAs.
