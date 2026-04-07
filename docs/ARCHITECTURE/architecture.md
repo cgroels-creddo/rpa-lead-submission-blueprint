@@ -4,7 +4,7 @@ This document is the main technical architecture reference for the RPA solution 
 
 ## 🧭 Overview
 
-The automation supports **[Business Process Name]** by replacing manual lead-submission work with a controlled, observable, and queue-driven RPA flow.
+The automation supports **Sending Leads to Bridgefund** by replacing manual lead-submission work with a controlled, observable, and queue-driven RPA flow.
 
 - **Business context:** Partner submission is currently manual, periodic, and error-prone.
 - **Objective:** Provide near real-time automated submission with traceable status and deterministic error handling.
